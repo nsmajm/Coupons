@@ -5,6 +5,28 @@
 body{
     background: #f4f4f4;
 }
+a {
+    color: #202020;
+    text-decoration: none;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+a:hover {
+    color: #a2a2a2;
+    text-decoration: none;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+a:focus {
+    text-decoration: none;
+    outline: 0;
+}
 #FeatureDeal {
 	margin-top: 20px;
 }
