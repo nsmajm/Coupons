@@ -5,6 +5,12 @@
 body{
     background: #f4f4f4;
 }
+
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 a {
     color: #202020;
     text-decoration: none;
@@ -625,4 +631,199 @@ a.share {
 .top-meta li .item-ratings span {
     color: #8c8c8c;
     font-size: 11px;
+}
+/*Login page*/
+.input-group {
+    margin-bottom: 25px;
+    width: 100%;
+}
+.input-group input,
+.input-group textarea {
+    height: 40px;
+    background-color: #f4f4f4;
+    font-size: 13px;
+    color: #676868;
+    border: none;
+    max-width: 100%;
+}
+.input-group textarea,
+.input-group textarea:focus {
+    min-height: 180px;
+    box-shadow: none;
+    outline: 0;
+}
+.form-submit input {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 6px 30px;
+}
+
+.white-block-content {
+    padding: 14px 20px;
+    text-align: left;
+}
+.featured-slider-wrap .white-block-content h2 {
+    text-align: left;
+}
+.white-block-content h2 {
+    margin: 10px 0;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.white-block-content h2 a:focus,
+.white-block-content h2 a:hover {
+    color: #5b0f70;
+}
+
+.featured-slider-wrap .white-block .white-block-content .slider-left .bottom-meta {
+    text-align: left;
+}
+.featured-slider-wrap .white-block .white-block-content .slider-left .bottom-meta li,
+.featured-slider-wrap .white-block .white-block-content .slider-left .bottom-meta li:first-child,
+.featured-slider-wrap .white-block .white-block-content .slider-left .bottom-meta li:last-child {
+    position: relative;
+    display: inline;
+}
+/* Not a Memeber Title*/
+.top-border h2 {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 31px;
+    color: #2f3336;
+}
+.alert-danger {
+    margin-bottom: 0;
+}
+/* Login Form Recovery Labels */
+.checkbox {
+    margin: 0;
+}
+.checkbox label,
+.top-border p a {
+    margin-top: 0;
+    font-size: 13px;
+}
+.checkbox label {
+    padding-left: 5px;
+    color: #7c7c7c;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.top-border p a {
+    color: #da1b36;
+}
+.top-border p a:hover {
+    text-decoration: underline;
+}
+.input-group .checkbox input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+}
+.input-group input[type="checkbox"]:before {
+    display: inline-block;
+    margin-top: -2px;
+    content: "";
+    width: 16px;
+    height: 16px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+.input-group input[type="checkbox"]:checked:before {
+    background-color: #5ba835;
+    border: 3px solid #e7e7e7;
+}
+/* Error Notification */
+.error {
+    margin-left: 5px;
+    color: #da1b36;
+}
+/* Submit Button */
+.btn.submit-form {
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    width: 30%;
+}
+/* Register Button */
+.btn-red {
+    padding: 8px 12px;
+    width: 80%;
+    background-color: #dc3b52;
+    font-size: 14px;
+}
+.btn-red:hover {
+    background-color: #db213b;
+}
+/* Register Sections Alert Icon */
+span.required {
+    color: #db213b;
+    vertical-align: super;
+}
+/* Social Connect */
+.comment-form-social-connect {
+    margin: 15px 0 2px;
+}
+.social_connect_form a i {
+    margin-right: 7px;
+    padding: 10px 12px;
+    width: 43px;
+    font-size: 20px;
+    color: #fff;
+}
+.social_connect_form a.social_connect_login_facebook i {
+    background-color: #3b5998;
+    padding-left: 16px;
+}
+.social_connect_form a.social_connect_login_twitter i {
+    background-color: #00aced;
+}
+.social_connect_form a.social_connect_login_google_plus i {
+    background-color: #d14334;
+}
+.white-block-content a.btn {
+    padding: 8px 25px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #5ba835;
+    border-radius: 0;
+}
+.white-block-content a.show-code {
+    padding: 0 25px;
+}
+.white-block-content a.show-code i {
+    margin: 0 12px 0 -25px;
+    padding: 12px;
+    background-color: #469022;
+}
+.white-block-content a.btn:hover {
+    color: #fff;
+    background-color: #469022;
+    cursor: pointer;
+}
+
+.login-titile {
+	background-image: url(../img/inner-bckg1.jpg);
+    background-position: center center;
+    background-size: cover ;
+    padding: 20px;
+    background-repeat: no-repeat;
+}
+.login-title-h1 h1{
+	font-weight: 900;
+    color: #fff;
+}
+.top-bar-login {
+	border-top: 10px solid #5b0f70;
+}
+#Login {
+	margin-top: 70px;
 }
