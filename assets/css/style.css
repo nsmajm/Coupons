@@ -765,6 +765,7 @@ a.share {
 span.required {
     color: #db213b;
     vertical-align: super;
+    font-size: 18px;
 }
 /* Social Connect */
 .comment-form-social-connect {
@@ -810,20 +811,23 @@ span.required {
     cursor: pointer;
 }
 
-.login-titile {
+.login-reg-titile {
 	background-image: url(../img/inner-bckg1.jpg);
     background-position: center center;
     background-size: cover ;
     padding: 20px;
     background-repeat: no-repeat;
 }
-.login-title-h1 h1{
+.login-reg-title-h1 h1{
 	font-weight: 900;
     color: #fff;
 }
-.top-bar-login {
+.top-bar-login-reg {
 	border-top: 10px solid #5b0f70;
 }
 #Login {
 	margin-top: 70px;
+}
+label{
+    font-weight: 700;
 }
